@@ -8,6 +8,7 @@ const Navigation = () => {
   const {
     value: {loading, authenticated},
   } = useAppState();
+
   if (loading) {
     return <AppLoading />;
   }

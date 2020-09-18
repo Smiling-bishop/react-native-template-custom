@@ -30,7 +30,8 @@ public class MainActivity extends ReactActivity {
 +  }
 }
 ````
-5. Finally, use the native components from 'react-native-ui-lib'
+5. Define the correct status bar in the SafeAreaXXXView components
+6. Finally, use the native components from 'react-native-ui-lib'
 
 # I18n
 I18nProvider allows the app to dynamically update the locale
