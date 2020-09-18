@@ -1,0 +1,5 @@
+{
+  "dayjs": "^1.8.36",
+  "react-native-ui-lib": "^5.14.0",
+  "react-navigation": "^4.4.0"
+}
