@@ -1,13 +1,34 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Text, Colors} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-const Authenticated = () => {
+function HomeScreen() {
   return (
-    <View>
-      <NavigationContainer />
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: Colors.errorColor,
+      }}>
+      <Text>Home!</Text>
     </View>
   );
+}
+
+function SettingsScreen() {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text>Settings!</Text>
+    </View>
+  );
+}
+
+const Tab = createBottomTabNavigator();
+
+const Authenticated = () => {
+  return <NavigationContainer />;
 };
 
 export default Authenticated;

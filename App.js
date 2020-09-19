@@ -14,7 +14,7 @@ import {I18nProvider} from './src/i18n';
 
 const App = () => {
   return (
-    <SafeAreaProvider initialMetrics={initialWindowMetrics}>
+    <SafeAreaProvider>
       <I18nProvider>
         <AppStateProvider>
           <StatusBar barStyle="dark-content" />

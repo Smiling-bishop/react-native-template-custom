@@ -3,7 +3,7 @@ import {View, Colors} from 'react-native-ui-lib';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {StatusBar} from 'react-native';
 
-const SafeAreaFullView = ({children, style}) => {
+const SafeAreaFullView = ({children, style, ...props}) => {
   const insets = useSafeAreaInsets();
 
   return (
