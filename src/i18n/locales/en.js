@@ -1,3 +1,5 @@
-const en = {};
+const en = {
+  loading: 'Loading',
+};
 
 export default en;
