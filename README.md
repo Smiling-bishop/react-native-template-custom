@@ -56,7 +56,7 @@ https://day.js.org/
 ````json
 {    
     "name": "react-native-template-custom", 
-    "version": "0.0.1"
+    "version": "X.X.X"
 }
 ````
 3. Remove android and ios directories
