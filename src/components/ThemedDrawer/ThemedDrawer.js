@@ -1,5 +1,6 @@
 import React from 'react';
 import {TouchableOpacity, View, Text, Spacings} from 'react-native-ui-lib';
+import I18n from '../../i18n';
 
 const ThemedDrawer = ({title, insets, state: {index, routes}, navigation}) => {
   const displayTitle = React.useCallback(() => {
@@ -21,7 +22,7 @@ const ThemedDrawer = ({title, insets, state: {index, routes}, navigation}) => {
             paddingV-content
             onPress={() => navigation.navigate(name)}>
             <Text drawerBtn drawerBtnActive={idx === index}>
-              {name}
+              {I18n.t(`drawer-${name}`)}
             </Text>
           </TouchableOpacity>
         ))}
