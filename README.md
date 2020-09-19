@@ -32,6 +32,12 @@ public class MainActivity extends ReactActivity {
 ````
 5. Define the correct status bar in the SafeAreaXXXView components
 6. Finally, use the native components from 'react-native-ui-lib'
+è. Don't forget to update the app navigation in the src/navigation directory.
+
+# Help
+## Navigation
+An authentication flows has been integrated at src/navigation.index.js
+Some navigation samples are provide in the file src/navigation/unauthenticated.js
 
 # I18n
 I18nProvider allows the app to dynamically update the locale
